@@ -1,0 +1,237 @@
+{
+  "version": "submariner-running-hands-20261012",
+  "clock": "device-local civil time; fractions second/minute/hour coupled continuously",
+  "formula": "desiredCW=2*pi*(timeSeconds%period)/period; offsetRadians=-(desiredCW-bindClockwiseRadians); quaternion=axisAngle(axisGLTF,offsetRadians)*neutralGLTF",
+  "mode": "replace ONLY decorative local hand-pivot rotation after authored mixer seek; preserve parent reveal/explode",
+  "hands": [
+    {
+      "role": "second",
+      "mesh": "Circle.028",
+      "pivot": "Illustrative_SecondHandPivot",
+      "parent": "Reveal_Hands",
+      "periodSeconds": 60,
+      "bindClockwiseRadians": -3.0212454690752244,
+      "bindClockwiseDegrees": -173.10461425103304,
+      "axisBlender": [
+        0.9679878950119019,
+        0.0,
+        0.250996857881546
+      ],
+      "axisGLTF": [
+        0.9679878950119019,
+        0.250996857881546,
+        -0.0
+      ],
+      "clockwiseQuaternionSign": -1,
+      "neutralQuaternionBlenderWXYZ": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "centerBlenderMeters": [
+        0.021147415041923523,
+        -0.0028242976404726505,
+        0.054210223257541656
+      ],
+      "tipBasis": "mean of outermost 2 percent radial vertices around actual source shaft; source 12 direction projected +Z in dial plane",
+      "meshVertexCount": 532,
+      "tipRadiusMeters": 0.017738519950656537,
+      "nativeSamples": [
+        {
+          "seconds": 0.0,
+          "quaternionWXYZ": [
+            0.06013728678226471,
+            -0.9662359356880188,
+            0.0,
+            -0.2505425810813904
+          ]
+        },
+        {
+          "seconds": 15.0,
+          "quaternionWXYZ": [
+            -0.6633034944534302,
+            -0.7243942022323608,
+            0.0,
+            -0.18783362209796906
+          ]
+        },
+        {
+          "seconds": 30.0,
+          "quaternionWXYZ": [
+            -0.9981901049613953,
+            -0.05821216478943825,
+            0.0,
+            -0.015094269998371601
+          ]
+        },
+        {
+          "seconds": 60.0,
+          "quaternionWXYZ": [
+            -0.06013728678226471,
+            0.9662359356880188,
+            0.0,
+            0.2505425810813904
+          ]
+        }
+      ]
+    },
+    {
+      "role": "minute",
+      "mesh": "Circle.029",
+      "pivot": "Illustrative_MinuteHandPivot",
+      "parent": "Reveal_Hands",
+      "periodSeconds": 3600,
+      "bindClockwiseRadians": 1.1107974474173994,
+      "bindClockwiseDegrees": 63.64400563092197,
+      "axisBlender": [
+        0.9679878950119019,
+        0.0,
+        0.250996857881546
+      ],
+      "axisGLTF": [
+        0.9679878950119019,
+        0.250996857881546,
+        -0.0
+      ],
+      "clockwiseQuaternionSign": -1,
+      "neutralQuaternionBlenderWXYZ": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "centerBlenderMeters": [
+        0.021149665117263794,
+        -0.0028242976404726505,
+        0.05420154333114624
+      ],
+      "tipBasis": "mean of outermost 2 percent radial vertices around actual source shaft; source 12 direction projected +Z in dial plane",
+      "meshVertexCount": 247,
+      "tipRadiusMeters": 0.01709290075859494,
+      "nativeSamples": [
+        {
+          "seconds": 0.0,
+          "quaternionWXYZ": [
+            0.8496902585029602,
+            0.5104027390480042,
+            0.0,
+            0.13234615325927734
+          ]
+        },
+        {
+          "seconds": 15.0,
+          "quaternionWXYZ": [
+            0.8565194010734558,
+            0.49959293007850647,
+            0.0,
+            0.1295432150363922
+          ]
+        },
+        {
+          "seconds": 30.0,
+          "quaternionWXYZ": [
+            0.8632017374038696,
+            0.4886975586414337,
+            0.0,
+            0.12671805918216705
+          ]
+        },
+        {
+          "seconds": 60.0,
+          "quaternionWXYZ": [
+            0.8761216402053833,
+            0.466657429933548,
+            0.0,
+            0.12100311368703842
+          ]
+        }
+      ]
+    },
+    {
+      "role": "hour",
+      "mesh": "Circle.030",
+      "pivot": "Illustrative_HourHandPivot",
+      "parent": "Reveal_Hands",
+      "periodSeconds": 43200,
+      "bindClockwiseRadians": -0.9884253674600133,
+      "bindClockwiseDegrees": -56.632601919126294,
+      "axisBlender": [
+        0.9679878950119019,
+        0.0,
+        0.250996857881546
+      ],
+      "axisGLTF": [
+        0.9679878950119019,
+        0.250996857881546,
+        -0.0
+      ],
+      "clockwiseQuaternionSign": -1,
+      "neutralQuaternionBlenderWXYZ": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "centerBlenderMeters": [
+        0.021149665117263794,
+        -0.0028242976404726505,
+        0.05420154333114624
+      ],
+      "tipBasis": "mean of outermost 2 percent radial vertices around actual source shaft; source 12 direction projected +Z in dial plane",
+      "meshVertexCount": 503,
+      "tipRadiusMeters": 0.011345943109440764,
+      "nativeSamples": [
+        {
+          "seconds": 0.0,
+          "quaternionWXYZ": [
+            0.880342423915863,
+            -0.4591540992259979,
+            -0.0,
+            -0.11905752122402191
+          ]
+        },
+        {
+          "seconds": 15.0,
+          "quaternionWXYZ": [
+            0.8798245191574097,
+            -0.46008339524269104,
+            -0.0,
+            -0.11929848045110703
+          ]
+        },
+        {
+          "seconds": 30.0,
+          "quaternionWXYZ": [
+            0.8793054819107056,
+            -0.4610121548175812,
+            -0.0,
+            -0.1195393055677414
+          ]
+        },
+        {
+          "seconds": 60.0,
+          "quaternionWXYZ": [
+            0.8782643675804138,
+            -0.46286797523498535,
+            -0.0,
+            -0.12002051621675491
+          ]
+        }
+      ]
+    }
+  ],
+  "ratioSecondsMinuteHour": [
+    720,
+    12,
+    1
+  ],
+  "protectedHashes": {
+    "assets\\candidates\\rolex-submariner-cc0\\original.blend": "aaec5e4cfa4ebd7d4a50e49cefb813904bd488c539958b1bc64c9c61d9b2f3f2",
+    "assets\\derived\\submariner-mechanical.blend": "47e4becbdc5f79e31daf1e5c5293f119d049b3ea352d7732a7a9175c705326a0",
+    "public\\models\\submariner-mechanical.glb": "345ea66eb86265827047e04d24a96d2903f9b0abec29e7df0d5bbc4dfd41c5f7",
+    "public\\models\\submariner-camera.glb": "ed3d1920be3f5ae13802ec9787580acd68634bbbbcbde58e62d0b67134b68d75"
+  },
+  "scope": "native sampled calibration/control proof, no native/browser animation playback acceptance; actual model unchanged",
+  "calibrationLimit": "source dial cardinal assumed by documented dial-plane +Z; measured mesh tips are approximate geometric mean, visual twelve-index alignment requires visible review"
+}

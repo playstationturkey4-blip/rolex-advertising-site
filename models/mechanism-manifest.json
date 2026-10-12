@@ -1,0 +1,407 @@
+{
+  "boundary": "Original exterior + purpose-built illustrative generic mechanical movement. Not a Rolex calibre, not engineering/servicing simulation.",
+  "anatomy_source": "https://nomos-glashuette.com/en/topics/mechanical-watches",
+  "anatomy_basis": "Mainplate, barrel/mainspring, wheel train, escapement, balance/hairspring and bridges. Layout, gear ratios and motion are illustrative.",
+  "source_sha256": "aaec5e4cfa4ebd7d4a50e49cefb813904bd488c539958b1bc64c9c61d9b2f3f2",
+  "source_unchanged": true,
+  "original_meshes": 66,
+  "new_meshes": 86,
+  "new_objects": [
+    "Illustrative_Mainplate",
+    "Illustrative_MainplatePerimeter",
+    "Illustrative_BarrelBridge",
+    "Illustrative_TrainBridge",
+    "Illustrative_BalanceCock",
+    "Illustrative_BarrelToothedRim",
+    "Illustrative_BarrelHub",
+    "Illustrative_BarrelAxle",
+    "Illustrative_BarrelSpoke0",
+    "Illustrative_BarrelSpoke1",
+    "Illustrative_BarrelSpoke2",
+    "Illustrative_BarrelSpoke3",
+    "Illustrative_BarrelSpoke4",
+    "Illustrative_BarrelJewel",
+    "Illustrative_BarrelBearingCap",
+    "Illustrative_CenterWheelToothedRim",
+    "Illustrative_CenterWheelHub",
+    "Illustrative_CenterWheelAxle",
+    "Illustrative_CenterWheelSpoke0",
+    "Illustrative_CenterWheelSpoke1",
+    "Illustrative_CenterWheelSpoke2",
+    "Illustrative_CenterWheelSpoke3",
+    "Illustrative_CenterWheelSpoke4",
+    "Illustrative_CenterWheelJewel",
+    "Illustrative_CenterWheelBearingCap",
+    "Illustrative_ThirdWheelToothedRim",
+    "Illustrative_ThirdWheelHub",
+    "Illustrative_ThirdWheelAxle",
+    "Illustrative_ThirdWheelSpoke0",
+    "Illustrative_ThirdWheelSpoke1",
+    "Illustrative_ThirdWheelSpoke2",
+    "Illustrative_ThirdWheelSpoke3",
+    "Illustrative_ThirdWheelSpoke4",
+    "Illustrative_ThirdWheelJewel",
+    "Illustrative_ThirdWheelBearingCap",
+    "Illustrative_FourthWheelToothedRim",
+    "Illustrative_FourthWheelHub",
+    "Illustrative_FourthWheelAxle",
+    "Illustrative_FourthWheelSpoke0",
+    "Illustrative_FourthWheelSpoke1",
+    "Illustrative_FourthWheelSpoke2",
+    "Illustrative_FourthWheelSpoke3",
+    "Illustrative_FourthWheelSpoke4",
+    "Illustrative_FourthWheelJewel",
+    "Illustrative_FourthWheelBearingCap",
+    "Illustrative_EscapeWheelToothedRim",
+    "Illustrative_EscapeWheelHub",
+    "Illustrative_EscapeWheelAxle",
+    "Illustrative_EscapeWheelSpoke0",
+    "Illustrative_EscapeWheelSpoke1",
+    "Illustrative_EscapeWheelSpoke2",
+    "Illustrative_EscapeWheelJewel",
+    "Illustrative_EscapeWheelBearingCap",
+    "Illustrative_BarrelCover",
+    "Illustrative_BalanceRim",
+    "Illustrative_BalanceHub",
+    "Illustrative_BalanceSpoke0",
+    "Illustrative_BalanceSpoke1",
+    "Illustrative_BalanceSpoke2",
+    "Illustrative_Hairspring",
+    "Illustrative_Mainspring",
+    "Illustrative_PalletFork",
+    "Illustrative_EntryPallet",
+    "Illustrative_ExitPallet",
+    "Illustrative_BridgeScrew0",
+    "Illustrative_ScrewSlot0",
+    "Illustrative_BridgeScrew1",
+    "Illustrative_ScrewSlot1",
+    "Illustrative_BridgeScrew2",
+    "Illustrative_ScrewSlot2",
+    "Illustrative_BridgeScrew3",
+    "Illustrative_ScrewSlot3",
+    "Illustrative_MainplateScrew0",
+    "Illustrative_MainplateScrewSlot0",
+    "Illustrative_MainplateScrew1",
+    "Illustrative_MainplateScrewSlot1",
+    "Illustrative_MainplateScrew2",
+    "Illustrative_MainplateScrewSlot2",
+    "Illustrative_MainplateScrew3",
+    "Illustrative_MainplateScrewSlot3",
+    "Illustrative_MainplateScrew4",
+    "Illustrative_MainplateScrewSlot4",
+    "Illustrative_MainplateScrew5",
+    "Illustrative_MainplateScrewSlot5",
+    "Illustrative_MainplateScrew6",
+    "Illustrative_MainplateScrewSlot6"
+  ],
+  "gear_specs": [
+    [
+      "Barrel",
+      [
+        -0.008,
+        0.003
+      ],
+      0.0058,
+      72,
+      0.5
+    ],
+    [
+      "CenterWheel",
+      [
+        0.00138,
+        0.0005
+      ],
+      0.004,
+      48,
+      -0.75
+    ],
+    [
+      "ThirdWheel",
+      [
+        0.00735,
+        0.0035
+      ],
+      0.0029,
+      36,
+      1.0
+    ],
+    [
+      "FourthWheel",
+      [
+        0.008,
+        -0.00256
+      ],
+      0.00322,
+      40,
+      -0.9
+    ],
+    [
+      "EscapeWheel",
+      [
+        0.00378,
+        -0.00495
+      ],
+      0.00161,
+      20,
+      1.8
+    ]
+  ],
+  "clip": "ExteriorReveal",
+  "duration_seconds": 10,
+  "mechanical_explode_window": [
+    0.56,
+    0.67
+  ],
+  "hold": [
+    0.67,
+    0.78
+  ],
+  "reassembly": [
+    0.78,
+    0.89
+  ],
+  "axes_blender": {
+    "front": [
+      0.9679878950119019,
+      0.0,
+      0.250996857881546
+    ],
+    "side": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "up": [
+      -0.250996857881546,
+      0.0,
+      0.9679878950119019
+    ]
+  },
+  "axes_gltf": {
+    "front": [
+      0.9679878950119019,
+      0.250996857881546,
+      -0.0
+    ],
+    "side": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "up": [
+      -0.250996857881546,
+      0.9679878950119019,
+      -0.0
+    ]
+  },
+  "cutaway_visibility": {
+    "always_hide": [
+      "Cutaway_Cube",
+      "Cutaway_Circle",
+      "Cutaway_Circle.001",
+      "Cutaway_Circle.002",
+      "Cutaway_Circle.007",
+      "Circle.007",
+      "Circle007"
+    ],
+    "always_use": [
+      "Cube",
+      "Circle",
+      "Circle.001",
+      "Circle.002",
+      "CorrectedBezel_Circle.007"
+    ],
+    "pairs": [],
+    "active_progress": [
+      0.46,
+      0.9
+    ]
+  },
+  "black_occlusion_fix": {
+    "confirmed_root_cause": "Main source glass Alpha .25 had been forced to1 in this build script; restore exact source Alpha .25. Browser original/corrected bezel A/B both readable after material restoration; central cap correction unnecessary assembled.",
+    "derived": "CorrectedBezel_Circle.007 retained hidden diagnostic only",
+    "removed_central_faces": 256,
+    "original_retained": true
+  },
+  "glass_export": [
+    {
+      "material": "glass",
+      "alpha": 0.25,
+      "ior": 1.4500000476837158,
+      "roughness": 0.0,
+      "transmission": 1
+    },
+    {
+      "material": "glass.001",
+      "alpha": 1.0,
+      "ior": 1.4500000476837158,
+      "roughness": 0.0,
+      "transmission": 1
+    }
+  ],
+  "trajectory": {
+    "node": "Reveal_Trajectory",
+    "start_gltf": [
+      0,
+      0,
+      0
+    ],
+    "end_gltf": [
+      0.004517943441867828,
+      -0.017423782110214232,
+      0.0
+    ],
+    "rule": "Quintic C2 Blender root descent; camera anchors subtract displacement without cancelling object motion."
+  },
+  "choreography": {
+    "version": "submariner-central-link-reveal-2026-10-11",
+    "samples_per_channel": 3201,
+    "ease": "quintic C2; dense linear samples",
+    "hand_inspection_window": [
+      0.941,
+      0.969
+    ],
+    "bracelet_articulation": {
+      "paired_link_objects": [
+        "Cube.001",
+        "Cube.002",
+        "Cube.003",
+        "Cube.004",
+        "Cube.005",
+        "Cube.006",
+        "Cube.007",
+        "Cube.008",
+        "Cube.009",
+        "Cube.010",
+        "Cube.011",
+        "Cube.012",
+        "Cube.013",
+        "Cube.014",
+        "Cube.016",
+        "Cube.019",
+        "Cube.020"
+      ],
+      "clip_window": [
+        0.977,
+        0.979,
+        0.981,
+        0.983
+      ],
+      "max_offset_meters": 0.024,
+      "adaptation": "Original central bars16–24mm, paired outer rails2mm, staggered axial reveal; not literal strap straightening"
+    },
+    "exterior_windows": {
+      "Back": [
+        0.465,
+        0.535,
+        0.875,
+        0.925
+      ],
+      "Bezel": [
+        0.46,
+        0.545,
+        0.895,
+        0.935
+      ],
+      "Glass": [
+        0.48,
+        0.565,
+        0.88,
+        0.925
+      ],
+      "Hands": [
+        0.51,
+        0.595,
+        0.86,
+        0.915
+      ],
+      "Dial": [
+        0.525,
+        0.625,
+        0.84,
+        0.905
+      ],
+      "Crown": [
+        0.49,
+        0.575,
+        0.885,
+        0.925
+      ]
+    },
+    "exterior_offsets_meters": {
+      "Back": [
+        -0.07743903249502182,
+        -0.0,
+        -0.020079748705029488
+      ],
+      "Bezel": [
+        0.04162348061800003,
+        0.0,
+        0.010792865417897701
+      ],
+      "Glass": [
+        0.03387957811355591,
+        0.0,
+        0.008784890174865723
+      ],
+      "Hands": [
+        0.026135673746466637,
+        0.0,
+        0.006776915397495031
+      ],
+      "Dial": [
+        0.019359758123755455,
+        0.0,
+        0.005019937176257372
+      ],
+      "Crown": [
+        0.014519818127155304,
+        0.0,
+        0.003764952765777707
+      ]
+    },
+    "mechanical_windows": {
+      "Illustrative_MainplateLayer": [
+        0.585,
+        0.705,
+        0.78,
+        0.855
+      ],
+      "Illustrative_BridgesLayer": [
+        0.57,
+        0.69,
+        0.79,
+        0.865
+      ],
+      "Illustrative_BalanceLayer": [
+        0.565,
+        0.68,
+        0.8,
+        0.875
+      ],
+      "Illustrative_GearTrainLayer": [
+        0.55,
+        0.665,
+        0.815,
+        0.885
+      ]
+    },
+    "module_offsets_meters": {
+      "Illustrative_MainplateLayer": 0.15,
+      "Illustrative_BridgesLayer": 0.118,
+      "Illustrative_BalanceLayer": 0.09,
+      "Illustrative_GearTrainLayer": 0.062
+    },
+    "mechanism_drive_window": [
+      0.62,
+      0.8
+    ],
+    "rule": "Only original rear cover backward; every other extraction forward. Source geometry/materials untouched."
+  },
+  "motion_basis": "Dense 300-sample C2 ordered extraction, staged inward reassembly, delayed inspection tilt and scroll-driven meshing gears.",
+  "inspection_tilt": "Internals turn 62 degrees toward crown-side camera during .56-.67 extraction, hold until .78, restore by .89. Exterior casing remains side-on; this is a presentation unfolding, not servicing physics.",
+  "normal_validation": "Finite vertices; bmesh normal_update after bisect/cap; exporter normals required.",
+  "glb_sha256": "345ea66eb86265827047e04d24a96d2903f9b0abec29e7df0d5bbc4dfd41c5f7",
+  "glb_bytes": 42623956,
+  "blend_sha256": "47e4becbdc5f79e31daf1e5c5293f119d049b3ea352d7732a7a9175c705326a0"
+}

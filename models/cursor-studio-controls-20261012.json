@@ -1,0 +1,306 @@
+{
+  "version": "cursor-studio-controls-20261012",
+  "units": "normalized camera-local radius",
+  "pointer": {
+    "axes": [
+      "camera-right",
+      "camera-up"
+    ],
+    "normalizedRange": [
+      -1,
+      1
+    ],
+    "rotationRadians": 0,
+    "depthTranslation": 0,
+    "dampingSeconds": 0.22,
+    "cssPixelCap": {
+      "x": 10.8,
+      "y": 9
+    },
+    "fadeStart": 0.028,
+    "fadeEnd": 0.068,
+    "touch": "disabled",
+    "reducedMotion": "neutral",
+    "neutralReturn": "leave/blur/hidden; existing viewer RAF"
+  },
+  "web_lights": [
+    {
+      "name": "key",
+      "position": [
+        2.6,
+        3.2,
+        3.6
+      ],
+      "intensity": 2.0,
+      "width": 3.0,
+      "height": 1.8,
+      "cursorInfluence": [
+        0.22,
+        0.16
+      ]
+    },
+    {
+      "name": "fill",
+      "position": [
+        -3.0,
+        0.8,
+        2.5
+      ],
+      "intensity": 0.65,
+      "width": 3.8,
+      "height": 3.0,
+      "cursorInfluence": [
+        -0.12,
+        0.08
+      ]
+    },
+    {
+      "name": "rim",
+      "position": [
+        1.6,
+        1.4,
+        -2.8
+      ],
+      "intensity": 1.1,
+      "width": 1.0,
+      "height": 3.0,
+      "cursorInfluence": [
+        0.16,
+        -0.1
+      ]
+    }
+  ],
+  "lighting": {
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "webLightType": "RectAreaLight",
+    "lights": [
+      {
+        "name": "key",
+        "position": [
+          2.6,
+          3.2,
+          3.6
+        ],
+        "intensity": 2.0,
+        "width": 3.0,
+        "height": 1.8,
+        "cursorInfluence": [
+          0.22,
+          0.16
+        ]
+      },
+      {
+        "name": "fill",
+        "position": [
+          -3.0,
+          0.8,
+          2.5
+        ],
+        "intensity": 0.65,
+        "width": 3.8,
+        "height": 3.0,
+        "cursorInfluence": [
+          -0.12,
+          0.08
+        ]
+      },
+      {
+        "name": "rim",
+        "position": [
+          1.6,
+          1.4,
+          -2.8
+        ],
+        "intensity": 1.1,
+        "width": 1.0,
+        "height": 3.0,
+        "cursorInfluence": [
+          0.16,
+          -0.1
+        ]
+      }
+    ],
+    "environment": "retain accepted PBR environment; direct studio lights additive",
+    "conversion": "positions,width,height multiply by model radius; intensity is web tuning, not Blender watts"
+  },
+  "protectedHashes": {
+    "assets\\candidates\\rolex-submariner-cc0\\original.blend": "aaec5e4cfa4ebd7d4a50e49cefb813904bd488c539958b1bc64c9c61d9b2f3f2",
+    "assets\\derived\\submariner-mechanical.blend": "47e4becbdc5f79e31daf1e5c5293f119d049b3ea352d7732a7a9175c705326a0",
+    "public\\models\\submariner-mechanical.glb": "345ea66eb86265827047e04d24a96d2903f9b0abec29e7df0d5bbc4dfd41c5f7",
+    "public\\models\\submariner-camera.glb": "ed3d1920be3f5ae13802ec9787580acd68634bbbbcbde58e62d0b67134b68d75"
+  },
+  "preservation": {
+    "meshCount": 158,
+    "materialsAndVertexCountsUnchanged": true
+  },
+  "evidenceScope": "native background Blender derived asset and render only; web renderer integration and visual acceptance separate",
+  "entrance": {
+    "samples": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.03333333333333333,
+        0.9941087961196899
+      ],
+      [
+        0.06666666666666667,
+        0.9773147702217102
+      ],
+      [
+        0.1,
+        0.9509375095367432
+      ],
+      [
+        0.13333333333333333,
+        0.9162963032722473
+      ],
+      [
+        0.16666666666666666,
+        0.8747106194496155
+      ],
+      [
+        0.2,
+        0.8274999856948853
+      ],
+      [
+        0.23333333333333334,
+        0.7759838104248047
+      ],
+      [
+        0.26666666666666666,
+        0.7214815020561218
+      ],
+      [
+        0.3,
+        0.6653125286102295
+      ],
+      [
+        0.3333333333333333,
+        0.6087962985038757
+      ],
+      [
+        0.36666666666666664,
+        0.5532523393630981
+      ],
+      [
+        0.4,
+        0.5
+      ],
+      [
+        0.43333333333333335,
+        0.45011571049690247
+      ],
+      [
+        0.4666666666666667,
+        0.4037037193775177
+      ],
+      [
+        0.5,
+        0.3606249988079071
+      ],
+      [
+        0.5333333333333333,
+        0.3207407593727112
+      ],
+      [
+        0.5666666666666667,
+        0.2839120626449585
+      ],
+      [
+        0.6,
+        0.25
+      ],
+      [
+        0.6333333333333333,
+        0.2188657522201538
+      ],
+      [
+        0.6666666666666666,
+        0.1903703808784485
+      ],
+      [
+        0.7,
+        0.16437499225139618
+      ],
+      [
+        0.7333333333333333,
+        0.1407407820224762
+      ],
+      [
+        0.7666666666666667,
+        0.11932872235774994
+      ],
+      [
+        0.8,
+        0.10000000149011612
+      ],
+      [
+        0.8333333333333334,
+        0.0826273113489151
+      ],
+      [
+        0.8666666666666667,
+        0.06712962687015533
+      ],
+      [
+        0.9,
+        0.053437501192092896
+      ],
+      [
+        0.9333333333333333,
+        0.04148148372769356
+      ],
+      [
+        0.9666666666666667,
+        0.031192133203148842
+      ],
+      [
+        1.0,
+        0.022499997168779373
+      ],
+      [
+        1.0333333333333334,
+        0.015335654839873314
+      ],
+      [
+        1.0666666666666667,
+        0.009629631415009499
+      ],
+      [
+        1.1,
+        0.005312496796250343
+      ],
+      [
+        1.1333333333333333,
+        0.002314816229045391
+      ],
+      [
+        1.1666666666666667,
+        0.0005671177059412003
+      ],
+      [
+        1.2,
+        0.0
+      ]
+    ],
+    "durationSeconds": 1.2,
+    "fps": 30,
+    "control": "CursorStudioEntrance[normalized_y]",
+    "nativeFrameRange": [
+      101,
+      137
+    ],
+    "sourceBasis": "adaptation informed by existing reference research; exact reference watch entrance keyframes not recovered",
+    "orientationChange": 0,
+    "scaleChange": 0,
+    "materialOpacityChange": 0,
+    "scope": "native sampled control exported for viewer single RAF; no separate clock",
+    "nativeCameraTranslationMeters": 0.009
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "version": "submariner-clear-stack-and-complete-spring-20261012",
+  "sample_count": 3201,
+  "front_blender": [
+    0.9679878950119019,
+    0.0,
+    0.250996857881546
+  ],
+  "front_gltf": [
+    0.9679878950119019,
+    0.250996857881546,
+    -0.0
+  ],
+  "exterior": {
+    "Back": [
+      -0.08,
+      [
+        0.46,
+        0.515,
+        0.915,
+        0.938
+      ]
+    ],
+    "Glass": [
+      0.195,
+      [
+        0.46,
+        0.515,
+        0.92,
+        0.938
+      ]
+    ],
+    "Bezel": [
+      0.182,
+      [
+        0.47,
+        0.525,
+        0.91,
+        0.934
+      ]
+    ],
+    "Hands": [
+      0.17,
+      [
+        0.48,
+        0.54,
+        0.9,
+        0.928
+      ]
+    ],
+    "Dial": [
+      0.158,
+      [
+        0.49,
+        0.555,
+        0.895,
+        0.922
+      ]
+    ],
+    "Crown": [
+      0.015,
+      [
+        0.49,
+        0.575,
+        0.895,
+        0.93
+      ]
+    ]
+  },
+  "mechanical": {
+    "Bridges": [
+      0.118,
+      [
+        0.545,
+        0.655,
+        0.855,
+        0.89
+      ]
+    ],
+    "Balance": [
+      0.09,
+      [
+        0.555,
+        0.665,
+        0.845,
+        0.885
+      ]
+    ],
+    "GearTrain": [
+      0.062,
+      [
+        0.565,
+        0.675,
+        0.835,
+        0.88
+      ]
+    ],
+    "Mainplate": [
+      0.03,
+      [
+        0.575,
+        0.685,
+        0.825,
+        0.875
+      ]
+    ]
+  },
+  "tilt": [
+    0.685,
+    0.708,
+    0.78,
+    0.82
+  ],
+  "gears": [
+    {
+      "name": "Illustrative_BarrelPivot",
+      "teeth": 72,
+      "turnsPerSecond": 0.04,
+      "bindQuaternion": [
+        0.0,
+        0.0,
+        -0.6119653582572937,
+        0.7908845543861389
+      ]
+    },
+    {
+      "name": "Illustrative_CenterWheelPivot",
+      "teeth": 48,
+      "turnsPerSecond": -0.06,
+      "bindQuaternion": [
+        0.0,
+        0.0,
+        -0.6119653582572937,
+        0.7908845543861389
+      ]
+    },
+    {
+      "name": "Illustrative_ThirdWheelPivot",
+      "teeth": 36,
+      "turnsPerSecond": 0.08,
+      "bindQuaternion": [
+        0.0,
+        0.0,
+        -0.6119653582572937,
+        0.7908845543861389
+      ]
+    },
+    {
+      "name": "Illustrative_FourthWheelPivot",
+      "teeth": 40,
+      "turnsPerSecond": -0.072,
+      "bindQuaternion": [
+        0.0,
+        0.0,
+        -0.6119653582572937,
+        0.7908845543861389
+      ]
+    },
+    {
+      "name": "Illustrative_EscapeWheelPivot",
+      "teeth": 20,
+      "turnsPerSecond": 0.144,
+      "bindQuaternion": [
+        0.0,
+        0.0,
+        -0.6119653582572937,
+        0.7908845543861389
+      ]
+    }
+  ],
+  "oscillators": [
+    {
+      "name": "Illustrative_BalancePivot",
+      "amplitude": 0.65,
+      "frequency": 1.2,
+      "bindQuaternion": [
+        0.0,
+        0.0,
+        -0.6119653582572937,
+        0.7908845543861389
+      ]
+    },
+    {
+      "name": "Illustrative_PalletPivot",
+      "amplitude": 0.17,
+      "frequency": 1.2,
+      "bindQuaternion": [
+        0.0,
+        0.0,
+        -0.6119653582572937,
+        0.7908845543861389
+      ]
+    }
+  ],
+  "spring": "Illustrative_Hairspring",
+  "active_scroll": [
+    0.15,
+    0.18,
+    0.4,
+    0.42
+  ],
+  "boundary": "Illustrative mechanism; original source geometry/materials preserved. Only the requested hairspring is replaced in this working copy.",
+  "preserved_mesh_hashes": {
+    "Plane.012": "6d3501a1dd1986778927dade94852ca07597cc4c708c9fe895702790a19c03eb",
+    "Plane.011": "02c2d229e47df72e9d41df1953782d3301c91ed4e5612424b67e86845105f933",
+    "Plane.010": "6d3501a1dd1986778927dade94852ca07597cc4c708c9fe895702790a19c03eb",
+    "Plane.009": "02c2d229e47df72e9d41df1953782d3301c91ed4e5612424b67e86845105f933",
+    "Plane.008": "0cc605cb4353f0822736381b6aa9b40cbfb87138bcf9c36b642afcfbdf567bf0",
+    "Plane.007": "e58de55b2219dd2c64f850f33eae90f9a15d6ec7902e0b3c2e50936771843d32",
+    "Plane.006": "7b6eddf3ebb0a1095e231d715c4aefd96feab9e4ce80a7134e7c02aa9fa9233c",
+    "Plane.005": "6b057a56d7ad0d70c7781fbe3a9d315cc075e0ee724a8cf404d96d55e2f3584a",
+    "Plane.004": "539faeca6278ef8ff975855a6d04e2cda98c1f4fa5a1c3708eb0be16cfa4d070",
+    "Plane.003": "c21dd91b0e74df179c942bd026670e239f4fc8a261a5d1d22fb3decf0f2c8dee",
+    "Plane.002": "70a8161badf30e477070e268324d0eab08381c2fe5e00fd9ac3109c03ce1e984",
+    "Plane.001": "653706c819143cb6c422fcd5ece036ac1585904be63b4e5bc20fcd4a5f23076d",
+    "Cylinder": "af87fbe0342e9cbb2843cef69d889c2ae2ab34d1a127f5d1f7cd09ab0ff756bc",
+    "Cube.020": "a1df2c657e1240a51de76d9e4136674c6d2540121ae421f3830931611bb39415",
+    "Cube.019": "cc1b48f6b1fb3a670ee4e7f4ab4d70eeb12459f060bf37a2a3633c3121b8eb11",
+    "Cube.016": "f71e189320b54ed085626d2d41f55df53c560636bf4c1bfc2196e8abbfe0838d",
+    "Cube.014": "33435ce99e5c9a6c593e9c0721bfb6f0dcdb469b4b47910d9b89782023dd2d99",
+    "Cube.013": "0939961f172e3097fc03f0f91e5f5453e1fea76faab959262f47b52de4d1adc9",
+    "Cube.012": "139b108f813cb60d2456a8922517b26c0d9143b7b9867bf513b73bb1684906dc",
+    "Cube.011": "85e069f76bc41fec11da69e6f0209b7126d35012da29c6acc26cf1c1a976ff63",
+    "Cube.010": "aad8a10b4687f3a49bc046799962f03c00edd6c8370b2bf021aa218c38ecba15",
+    "Cube.009": "1bf0dbdd25860447c406026b23c2b28f4f08704f50d7b3d44ac9c650f6f8623c",
+    "Cube.008": "693465f2e896742657c8cf23315a2309888c4dd5560382043d94053bc88237b0",
+    "Cube.007": "54743af3ed59104b56147e8b974c0db94fcde8fd4581972b09bc97d734d4b735",
+    "Cube.006": "4606bd87c9969ef9feb9e504a974232e016d8519c959538cfc3ecc1348154ed9",
+    "Cube.005": "b19c2a8f17aae85f474961b0487edb5fda0e6e1bbc50627e9468782364ddec63",
+    "Cube.004": "1d5fbb56708c1650ac15e7bd1cb704cb7e162c16894c145a99a8f02f03164019",
+    "Cube.003": "d97ff6f2fd98575596b7efe659dada20c4fa8e919403777551d52ff116f92fa6",
+    "Cube.002": "8d145ea22fdf26a8b4649bb600bf454bd1e451c7fc83c606dc1bb3a0236d3f83",
+    "Cube.001": "535404295f4d3d8f31001fd9f23b98cac06e72e8ddfa391906fd0b30a47ffdb9",
+    "Cube": "3d2026daf29e673c9206cb95010054933b1d6cdf935689dedc4b4f6762300348",
+    "crown.001": "2bd16d8d1be5f5d892f1b8bdfae881a5e0fad1d3611cdda1e48cdd2f02db1ff7",
+    "crown": "2bd16d8d1be5f5d892f1b8bdfae881a5e0fad1d3611cdda1e48cdd2f02db1ff7",
+    "Circle.032": "d580586257cd80f42e5cde2e6b8958c9a4653a3ede42e8cffd6fcc53dfb95892",
+    "Circle.031": "d580586257cd80f42e5cde2e6b8958c9a4653a3ede42e8cffd6fcc53dfb95892",
+    "Circle.030": "ca33b850e81dfe3f5bb66e4fe5759b547a8cdfc9b92af58d5f1e5d6532a6f9e0",
+    "Circle.029": "ac19a898c6904bacf18f23e7ed964211a83a8ec82d6e06d9db44404b93ff8ab2",
+    "Circle.028": "4a111cdabbf567a50c9c89f8aa62135d2109c9f36277ab6ed73b51f94ba4aeed",
+    "Circle.027": "07e1d492bae325bde5b44bd9d12df8996ab53e267e933f6e462660840b1f2984",
+    "Circle.026": "030abbc1caf7a5b238a232147393113721f302e40f4ad484f6026a18d236543b",
+    "Circle.025": "ac0978ab194433151bfbee8ef8485e39b813c8a3f547fd9c57b165b2f4a718b0",
+    "Circle.024": "030abbc1caf7a5b238a232147393113721f302e40f4ad484f6026a18d236543b",
+    "Circle.023": "ac0978ab194433151bfbee8ef8485e39b813c8a3f547fd9c57b165b2f4a718b0",
+    "Circle.022": "030abbc1caf7a5b238a232147393113721f302e40f4ad484f6026a18d236543b",
+    "Circle.021": "ac0978ab194433151bfbee8ef8485e39b813c8a3f547fd9c57b165b2f4a718b0",
+    "Circle.020": "030abbc1caf7a5b238a232147393113721f302e40f4ad484f6026a18d236543b",
+    "Circle.019": "ac0978ab194433151bfbee8ef8485e39b813c8a3f547fd9c57b165b2f4a718b0",
+    "Circle.018": "030abbc1caf7a5b238a232147393113721f302e40f4ad484f6026a18d236543b",
+    "Circle.017": "ac0978ab194433151bfbee8ef8485e39b813c8a3f547fd9c57b165b2f4a718b0",
+    "Circle.016": "030abbc1caf7a5b238a232147393113721f302e40f4ad484f6026a18d236543b",
+    "Circle.015": "ac0978ab194433151bfbee8ef8485e39b813c8a3f547fd9c57b165b2f4a718b0",
+    "Circle.014": "030abbc1caf7a5b238a232147393113721f302e40f4ad484f6026a18d236543b",
+    "Circle.013": "ac0978ab194433151bfbee8ef8485e39b813c8a3f547fd9c57b165b2f4a718b0",
+    "Circle.012": "030abbc1caf7a5b238a232147393113721f302e40f4ad484f6026a18d236543b",
+    "Circle.011": "eb2b26d6ac37d489e094ee250cb4f892f6931a0e9eca45b24f919083cace89d0",
+    "Circle.010": "cf529a1f54eabe0a0f289548c887d1db907a8d7826c086bfdbf675dc70e96783",
+    "Circle.009": "64a745783b812a4d0fceebcec9ecf7488009e40dcecb7a8535887c48cbf5a4dd",
+    "Circle.008": "110d12fbb62c7bd5a081f359d7bdfff90ed878ec30d7d3e35e8016a3674df84e",
+    "Circle.007": "2ce33fdc65dd339c2c672c87710a519659ba7f567064873803d164c89cd917b1",
+    "Circle.006": "ba3c9013469ab29e4822c32c23ab5f2f502848273c356596e34163c2e70b180d",
+    "Circle.005": "bf4b1a0b68eea1166a5666efffb531f045d8633990b94192bff9f2d362b0c568",
+    "Circle.004": "bc4fe462b292ea038292cc0a68ca62ecc8788076829a32e814233547ac5b1920",
+    "Circle.003": "ac0978ab194433151bfbee8ef8485e39b813c8a3f547fd9c57b165b2f4a718b0",
+    "Circle.002": "0c99eb5cc72a047e203eb41927749d0e80b55f146fbccc0c71d3cfa8e6ce83e5",
+    "Circle.001": "e0b588a395194ad1d739701ef23f5c81f091d934c97948a88354c707bbf39d33",
+    "Circle": "9f25c71d8823046e67eece919eae9f2d7fa6e91ca606b01c0d03276f25d12f9c",
+    "Illustrative_Mainplate": "0f10cd7698f69935d5ea0c96756511cfd187ee7ebb84076feb49029ae475ee0f",
+    "Illustrative_MainplatePerimeter": "dbe2c49ad9e73dff7eb8119ace84fc653bb344f3832c97d6a4eca4c5d5225b3b",
+    "Illustrative_BarrelBridge": "3febbcfda846aa6082d7e62149eac0fc1ba238b506520f46ce92311c8c384572",
+    "Illustrative_TrainBridge": "cbadc38368d78aab0e59249f1b4fb9d2ac8753ee989e9d06ed58e385a2c12b4d",
+    "Illustrative_BalanceCock": "2e3b1dc8d0178c05b762c84a147ba584b23e8c2e832cd3ccceb9c09f94d91724",
+    "Illustrative_BarrelToothedRim": "5709a5db7b687fe7c3c3d90c96200d7370cf710360e5961026241b57153bb5cc",
+    "Illustrative_BarrelHub": "cb95f23d7c25da7351210aaefd0017402b92cccf281ee9c8e4eba701eaf01d85",
+    "Illustrative_BarrelAxle": "ad03dad6e455d27468c8df54cc8a12cbf9c603c0e163abfe34c3de92d25b4c82",
+    "Illustrative_BarrelSpoke0": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_BarrelSpoke1": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_BarrelSpoke2": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_BarrelSpoke3": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_BarrelSpoke4": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_BarrelJewel": "be15074890486af02830a872d39a5fbf21b7101ab70c24a7c701baec31ccf1f1",
+    "Illustrative_BarrelBearingCap": "10afd51aa605f0d1e6d70a60ee994e516fc2ef8ee4404055ba0eb2ed13b2149d",
+    "Illustrative_CenterWheelToothedRim": "f6348db1ad74b9173c603a9c7bcf736e6259deab69e14fda9b463302f4d3e6d6",
+    "Illustrative_CenterWheelHub": "4d3bda1c7db07b60b992ffc7f4dbe3f63234b33315b9af7c428d7942a363d28f",
+    "Illustrative_CenterWheelAxle": "ad03dad6e455d27468c8df54cc8a12cbf9c603c0e163abfe34c3de92d25b4c82",
+    "Illustrative_CenterWheelSpoke0": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_CenterWheelSpoke1": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_CenterWheelSpoke2": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_CenterWheelSpoke3": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_CenterWheelSpoke4": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_CenterWheelJewel": "be15074890486af02830a872d39a5fbf21b7101ab70c24a7c701baec31ccf1f1",
+    "Illustrative_CenterWheelBearingCap": "10afd51aa605f0d1e6d70a60ee994e516fc2ef8ee4404055ba0eb2ed13b2149d",
+    "Illustrative_ThirdWheelToothedRim": "d9542f3fc2854fb50f7209b41c395208b07fe2326f7ae3fea90e0f64776cc630",
+    "Illustrative_ThirdWheelHub": "1ad738f1aa8a4dd23ae6f6b4b6a0f1dcabb357c2c8e3630eef31970574a47e54",
+    "Illustrative_ThirdWheelAxle": "ad03dad6e455d27468c8df54cc8a12cbf9c603c0e163abfe34c3de92d25b4c82",
+    "Illustrative_ThirdWheelSpoke0": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_ThirdWheelSpoke1": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_ThirdWheelSpoke2": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_ThirdWheelSpoke3": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_ThirdWheelSpoke4": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_ThirdWheelJewel": "be15074890486af02830a872d39a5fbf21b7101ab70c24a7c701baec31ccf1f1",
+    "Illustrative_ThirdWheelBearingCap": "10afd51aa605f0d1e6d70a60ee994e516fc2ef8ee4404055ba0eb2ed13b2149d",
+    "Illustrative_FourthWheelToothedRim": "9b3f550efc3702a01b9740910a7fe0d4eddfdbb33a38fc854798ecb6a7a312e5",
+    "Illustrative_FourthWheelHub": "6e526295f6d5b74cc9ca2da1e4b124554ee8dc37efd97ca0063b41985ad64dd8",
+    "Illustrative_FourthWheelAxle": "ad03dad6e455d27468c8df54cc8a12cbf9c603c0e163abfe34c3de92d25b4c82",
+    "Illustrative_FourthWheelSpoke0": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_FourthWheelSpoke1": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_FourthWheelSpoke2": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_FourthWheelSpoke3": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_FourthWheelSpoke4": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_FourthWheelJewel": "be15074890486af02830a872d39a5fbf21b7101ab70c24a7c701baec31ccf1f1",
+    "Illustrative_FourthWheelBearingCap": "10afd51aa605f0d1e6d70a60ee994e516fc2ef8ee4404055ba0eb2ed13b2149d",
+    "Illustrative_EscapeWheelToothedRim": "39580652888a5b42421322b7899308e6561936d7047578be71dd2ceb66dfcf49",
+    "Illustrative_EscapeWheelHub": "e9c263438b960740385245ddc6950d9a64268df106bd981ad826feeb88bf322f",
+    "Illustrative_EscapeWheelAxle": "ad03dad6e455d27468c8df54cc8a12cbf9c603c0e163abfe34c3de92d25b4c82",
+    "Illustrative_EscapeWheelSpoke0": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_EscapeWheelSpoke1": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_EscapeWheelSpoke2": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_EscapeWheelJewel": "be15074890486af02830a872d39a5fbf21b7101ab70c24a7c701baec31ccf1f1",
+    "Illustrative_EscapeWheelBearingCap": "10afd51aa605f0d1e6d70a60ee994e516fc2ef8ee4404055ba0eb2ed13b2149d",
+    "Illustrative_BarrelCover": "fb410814e58989a1b429fc256f28e604e88c3c219d622f294e650a0a924d601c",
+    "Illustrative_BalanceRim": "52192c614c762c58e73296dfbfef9bf0d6b90b574d4647ee1ebbb8e09473b9bc",
+    "Illustrative_BalanceHub": "34741918c99a98c19d87ecba906fed4d72adff66d220659667cb714ce5c358ff",
+    "Illustrative_BalanceSpoke0": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_BalanceSpoke1": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_BalanceSpoke2": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_Mainspring": "a7ecc50ac342ccc9de98a8d04a174bd48b19e7bd097412dae11e416fef40a415",
+    "Illustrative_PalletFork": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_EntryPallet": "28325876ad68cc92d112b1e19ac0a489e3e76a97be89636438c493f4951829d0",
+    "Illustrative_ExitPallet": "28325876ad68cc92d112b1e19ac0a489e3e76a97be89636438c493f4951829d0",
+    "Illustrative_BridgeScrew0": "6ab0d3636e8d828de44657e1a56fc9a6aa5ba92682ab4199e2f2b1b76d2dc166",
+    "Illustrative_ScrewSlot0": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_BridgeScrew1": "6ab0d3636e8d828de44657e1a56fc9a6aa5ba92682ab4199e2f2b1b76d2dc166",
+    "Illustrative_ScrewSlot1": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_BridgeScrew2": "6ab0d3636e8d828de44657e1a56fc9a6aa5ba92682ab4199e2f2b1b76d2dc166",
+    "Illustrative_ScrewSlot2": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_BridgeScrew3": "6ab0d3636e8d828de44657e1a56fc9a6aa5ba92682ab4199e2f2b1b76d2dc166",
+    "Illustrative_ScrewSlot3": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_MainplateScrew0": "b0d14943c0e18e951bdf395eac4511892da424db0820621ae4aa3ba883e2a08d",
+    "Illustrative_MainplateScrewSlot0": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_MainplateScrew1": "b0d14943c0e18e951bdf395eac4511892da424db0820621ae4aa3ba883e2a08d",
+    "Illustrative_MainplateScrewSlot1": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_MainplateScrew2": "b0d14943c0e18e951bdf395eac4511892da424db0820621ae4aa3ba883e2a08d",
+    "Illustrative_MainplateScrewSlot2": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_MainplateScrew3": "b0d14943c0e18e951bdf395eac4511892da424db0820621ae4aa3ba883e2a08d",
+    "Illustrative_MainplateScrewSlot3": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_MainplateScrew4": "b0d14943c0e18e951bdf395eac4511892da424db0820621ae4aa3ba883e2a08d",
+    "Illustrative_MainplateScrewSlot4": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_MainplateScrew5": "b0d14943c0e18e951bdf395eac4511892da424db0820621ae4aa3ba883e2a08d",
+    "Illustrative_MainplateScrewSlot5": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "Illustrative_MainplateScrew6": "b0d14943c0e18e951bdf395eac4511892da424db0820621ae4aa3ba883e2a08d",
+    "Illustrative_MainplateScrewSlot6": "b652964cf727c69b2b644f6e70e8fb56afd399ddc38f7a1abc7ea2eaae749d90",
+    "CorrectedBezel_Circle.007": "26070c5fcb642d0f3f160f2b524d996c134aaa9de17dbb4fe0cb67ce680be3da",
+    "Cutaway_Cube": "d35484fe5d361d5751635d0ac860c608d99c0237fb0f36a1e7982568c8c38854",
+    "Cutaway_Circle": "f5b7c0fd7b019201c16c6513f0cd385d912a2a97e826cc36f9629b968cbd8b2e",
+    "Cutaway_Circle.001": "a3e2865a96b90d6773d3afd4f819e313fc976a8808eeb6996ca7c82351880368",
+    "Cutaway_Circle.002": "bb6b3c0051225335db4574ecfc9b355d76fefedf4ef5196bc156603381f7d4c7",
+    "Cutaway_Circle.007": "854d0fd45a13d979e36503c611fb70ab06051217cb7afaf627bedde306c2ab95"
+  }
+}
